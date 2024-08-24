@@ -5,7 +5,7 @@ function SearchBar({ setSearchTerm }) {
     <div className="relative">
       <input
         type="text"
-        className="w-[500px] p-2 pl-10 border bg-blue-50 border-2 border-blue-100 rounded-lg"
+        className="w-[500px] p-1 m-2 pl-10 border bg-blue-50 border-2 border-blue-100 rounded-lg"
         placeholder="Search anything..."
         onChange={(e) => setSearchTerm(e.target.value)}
       />
